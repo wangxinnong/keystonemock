@@ -15,7 +15,7 @@ keyUsage = nonRepudiation, digitalSignature, keyEncipherment
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = slc09wqe.us.oracle.com
+DNS.1 = `hostname`
 EOF
 
 openssl genrsa -out ssl/ca-key.pem 2048
